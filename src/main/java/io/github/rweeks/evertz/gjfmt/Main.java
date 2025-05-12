@@ -8,8 +8,8 @@ public class Main {
         }
 
         static ObjectCause objectCause(Object cause) { return new ObjectCause(cause); }
-        static OtherStringCause otherStringCause(String profileId) {
-            return new OtherStringCause(profileId);
+        static OtherStringCause otherStringCause(String cause) {
+            return new OtherStringCause(cause);
         }
     }
 
